@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungming Portfolio</title>
+    <link rel="stylesheet" href="stlye.css">
+    <script src="https://kit.fontawesome.com/64ff06d06b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#dreamjob">Dream Job</a></li>
+                    <li><a href="#activities">My Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello Cosci !</p>
+                <h1>Hi, I'm <span>Korlawit Chaivisuttikul</span><br>I have a dream to study at Cosci
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!---------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/User.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Jungming, 18 years old. I have a dream to join cosci, so I started writing this website to be a portfolio,  Hopefully the lecturer will see the intention this time.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Activities')">Activities</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Music</span><br>Guitar,Sing,Mixed,GarageBand</li>
+                            <li><span>Coding Languages</span><br>Html,CSS,Javascript,Python</li>
+                            <li><span>Application</span><br>FL Studio,Excel,Adobe Premiere Pro</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Grade1-6</span><br>Sarasas witaed nimitmai school</li>
+                            <li><span>Grade7-9</span><br>Triamudom suksapattanakarn suvarnabhumi school</li>
+                            <li><span>Grade10-12</span><br>Triamudom suksapattanakarn suvarnabhumi school (Gpax 3.43)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Activities">
+                        <ul>
+                            <li><span>2021</span><br>Shooting for KFC Advertisement,School drum major</li>
+                            <li><span>2022</span><br>Play music on stage with band,2nd place in music competition</li>
+                            <li><span>2023</span><br>789trainee Audition,Make a Website</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------Dream Job------- -->
+    <div id="dreamjob">
+        <div class="container">
+            <h1 class="sub-title">My Dream Job</h1>
+            <div class="dreamjob-list">
+                <div>
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h2>IT Project Manager</h2>
+                    <p>Management of information technology projects to be able to deliver results according to quality. within the specified time and resources The project manager will be the center of management and coordination between various stakeholders.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    </a><i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>A web developer is someone who builds websites using coding and programming. They will take an overall website design concept and begin building it using different coding languages.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>An app developer is responsible for the coding and functionality of an app. They will work with a design prototype created by the app designer and turn it into a fully functional application. </p>
+                    <a href="#">Learn more</a>
+                </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="activities">
+        <div class="container">
+            <h1 class="sub-title">My Activities</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3><b>789TRAINEE</b></h3>
+                        <p><b>There was a contact from the Nadao Bangkok team to audition to be a trainee artist in the care of Yong Songyot, so i have to make a video for audition.</b></p>
+                        <a href="https://youtu.be/ryycKPbMPNY"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3><b>Music Band</b></h3>
+                        <p><b>Got 2nd place from the band competition</b></p>
+                        <a href="https://www.instagram.com/onslotofficial/?hl=en"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg">
+                    <div class="layer">
+                        <h3><b>School Drum Major</b></h3>
+                        <p><b>2022 Has Choose to be the school's Drum Major at school events.</b></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!------ Contact ------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> korlawitc2548@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> (+66) 065-925-9151</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jungming.chaivisuttikul.31"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mingggg.klw/?hl=en"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://github.com/korlawitc"><i class="fa-brands fa-github"></i></i></a>
+                </div>
+                <a href="images/Korlawit Portfolio.pdf" download class="btn btn2">Dowload E-Portfolio</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Jungming. Made For <i class="fa-solid fa-heart"> Cosci </i></p>
+    </div>
+</div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxKEeKyz63CoJhRxBzTiMWqRbR-kMGXyq8hvBVcIzG4qi_uJk-E-N9f8N28jom-xNqY/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
